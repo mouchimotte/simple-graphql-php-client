@@ -3,6 +3,8 @@
 The purpose of those class is to transform an array that describe GraphQL queries or mutations, into a valid request body.
 So transform the description into a valid Graphql string and build a request array with it.
 
+Based on works of https://github.com/christiangoltz/graphql-client-php
+
 It supports:
 - multiple queries or mutations
 - variables
